@@ -32,3 +32,27 @@
 ### Recopilación de Datos:
 
 ### Estructuras de Datos y Tipos:
+
+### Preprocesamiento de Datos:
+
+### Link a la Información:
+
+## Desarrollo de los Modelos y Validación
+
+### Software Utilizado:
+
+### Entrenamiento y Validación de los Modelos:
+
+### Características Seleccionadas y Entrada a los Modelos:
+
+### Variable a Predecir y Salida de los Modelos:
+
+### Método de Validación:
+
+### Reproducibilidad y Reutilización del Código:
+
+## Modelo en Producción
+
+## Video Promocional
+
+## Conclusiones 
