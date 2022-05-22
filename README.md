@@ -43,18 +43,17 @@
 
 A continuación se realiza un análisis descriptivo a algunas de las características encontradas en nuestra base de datos.
 
-###Estado de crédito ('loan-status')
+### Estado de crédito ('loan-status')
 
 El estado de crédito se clasifica en lo siguiente: Current (Actual), Fully Paid (Completamente pagado), Charged Off (Cobrado), Late (En mora), In Grace Period (En período de gracia), Does not meet the credit policy (No cumple con la política de crédito) y Default (Incumplimiento).
 
-
 ![](images/loan_status_1.png)
 
-*Figura 1*.Loan Status 1. Fuente propia.
+*Figura 1*. Loan Status 1. Fuente propia.
 
 ![](images/loan_status_2.png)
 
-*Figura 2*.Loan Status 2. Fuente propia.
+*Figura 2*. Loan Status 2. Fuente propia.
 
 Al observar los gráficos de barras, se concluye que las personas por lo general tienen un crédito actual o lo han pagado por completo (Véase Loan Status 1).
 
@@ -62,9 +61,33 @@ Ahora, se muestra la cantidad de personas en el estado Default y las que no est�
 
 ![](images/loan_status_3.png)
 
-*Figura 3*.Loan Status 3. Fuente propia.
+*Figura 3*. Loan Status 3. Fuente propia.
 
 Al ver los resultados, se concluye que la gran mayoría que solicitaron crédito no se encuentran en estado de Default, es decir que cumplen con sus obligaciones financieras.
+
+### Propiedad de la vivienda ('home_ownership')
+
+El tipo de propiedad de vivienda puede influenciar en la solicitud de crédito. Aquí se muestra, por medio de una gráfica de barras, la cantidad de personas que solicitaron crédito según su tipo de propiedad de vivienda.
+
+La propiedad de vivienda se clasifica de la siguiente manera: MORTGAGE (Hipoteca), RENT (Renta), OWN (Propietario), OTHER (Otro), NONE (Ninguno) o ANY (Alguno).
+
+![](images/home_ownership.png)
+
+*Figura 4*. Home Owenrship. Fuente propia.
+
+Se realizaron dos gráficos de barras debido a que la escala del primer gráfico no permitía ver la cantidad de datos de algunos tipos de propiedad. Ahora, se observa que la mayoría de personas que solicitaron crédito viven en hipoteca o rentan.
+
+### Estado del solicitante ('addr_state')
+
+Los siguientes son estados de EEUU donde residen los solicitantes de crédito:
+
+California (CA), New York (NY), Texas (TX), Florida (FL), Illinois (IL), New Jersey (NJ), Pensilvania (PA), Ohio (OH), Georgia (GA), Virginia (VA), North Carolina (NC), Michigan (MI), Massachusetts (MA), Maryland (MD), Arizona (AZ), Washington (WA), Colorado (CO), Minnesota (MN), Missouri (MO), Connecticut (CT), Indiana (IN), Nevada (NV), Tennessee (TN), Oregon (OR), Wisconsin (WI), Alabama (AL), South Carolina (SC), Louisiana (LA), Kentucky (KY), Kansas (KS), Oklahoma (OK), Arkansas (AR), Utah (UT), New Mexico (NM), Hawaii (HI), West Virginia (WV), New Hampshire (NH), Rhoad Island (RI), District of Columbia (DC), Montana (MT), Delaware (DE), Alaska (AK), Mississippi (MS), Wyoming (WY), South Dakota (SD), Vermont (VT), Iowa (IA), Nebraska (NE), Idaho (ID) y Maine (ME).
+
+![](images/states.png)
+
+*Figura 5*. States. Fuente propia.
+
+Al ver la gráfica de barras podemos concluír que el estado donde hay más personas que solicitaron crédito es California.
 
 ## Fuentes de Datos y Preprocesamiento
 
