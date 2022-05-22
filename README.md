@@ -23,7 +23,15 @@
 
 ### Método de Machine Learning:
 
+* Realización de dos modelos, uno de redes neuronales y otro de regresión logística. Ambos con el fin de realizar la predicción de riesgo de crédito.
+    
+    * Para la realización del modelo de redes neuronales se seleccionaron todas las características contenidas en el conjunto de datos debido a que esto permite una mejor rendimiento del modelo. 
+    * Para la realización del modelo de regresión logística se seleccionaron 10 características utilizando el método RFE ya que su objetivo es seleccionar características considerando de forma recursiva conjuntos de características cada vez más pequeños.
+
 ### Evaluación de Métricas, Protocolo de Entrenamiento y Validación:
+
+* accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos.
+* 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos.
 
 ## Definiciones
 
