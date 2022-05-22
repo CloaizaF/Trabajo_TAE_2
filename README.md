@@ -132,7 +132,11 @@ A continuación se presenta el flujo de trabajo realizado:
 ## Referencias
 
 Bhalla, D. (s. f.). A Complete Guide to Credit Risk Modelling. ListenData. https://www.listendata.com/2019/08/credit-risk-modelling.html
+
 F. (2021, 15 septiembre). 🏦 Lending Club Loan 💰 Defaulters 🏃‍♂ Prediction. Kaggle. https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction/notebook
+
 Li, S. (2019, 27 febrero). Building A Logistic Regression in Python, Step by Step. Medium. https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+
 Mumtaz, A. (2021, 15 diciembre). How to Develop a Credit Risk Model and Scorecard | Towards Data Science. Medium. https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-91335fc01f03
+
 Property, K. T. |. (2022, 30 marzo). Intro to Credit Scorecard - Towards Data Science. Medium. https://towardsdatascience.com/intro-to-credit-scorecard-9afeaaa3725f
