@@ -25,8 +25,9 @@
 
 * Realización de dos modelos, uno de redes neuronales y otro de regresión logística. Ambos con el fin de realizar la predicción de riesgo de crédito.
     
+    * Para ambos modelos se realizó un análisis exploratorio de datos evaluando una gran cantidad de características sin hipótesis pre-especificadas para identificar y seleccionar las características que sirvan como variables predictivas y variable a predecir.
     * Para la realización del modelo de redes neuronales se seleccionaron todas las características contenidas en el conjunto de datos debido a que esto permite una mejor rendimiento del modelo. 
-    * Para la realización del modelo de regresión logística se seleccionaron 10 características utilizando el método RFE ya que su objetivo es seleccionar características considerando de forma recursiva conjuntos de características cada vez más pequeños.
+    * Para la realización del modelo de regresión logística se seleccionaron 10 características utilizando el método Recursive Feature Elimination (RFE) ya que su objetivo es seleccionar características considerando de forma recursiva conjuntos de características cada vez más pequeños.
 
 ### Evaluación de Métricas, Protocolo de Entrenamiento y Validación:
 
@@ -84,20 +85,46 @@ A continuación se presenta el flujo de trabajo realizado:
 
 ### Software Utilizado:
 
-* Modelo realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando las librerías [Sklearn](https://scikit-learn.org/stable/) y [Tensorflow](https://www.tensorflow.org/?hl=es-419)
+* Modelo realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando las librerías [Sklearn](https://scikit-learn.org/stable/) y [Tensorflow](https://www.tensorflow.org/?hl=es-419).
 
 ### Entrenamiento y Validación de los Modelos:
 
+* Entrenamiento completado para ambos modelos utilizando 311832 registros de solicitudes de préstamo.
+
 ### Características Seleccionadas y Entrada a los Modelos:
+
+* Para el modelo realizado con redes neuronales se utilizaron todas las características obtenidas después de la realización del preprocesamiento de datos.
+* Para el modelo realizado con regresión lineal se utilizaron las siguientes 10 características: 'funded_amnt', 'funded_amnt_inv', 'installment', 'total_acc', 'out_prncp', 'out_prncp_inv', 'total_pymnt', 'total_rec_prncp', 'total_rec_int', 'total_rec_late_fee' obtenidas utilizando el método RFE.
 
 ### Variable a Predecir y Salida de los Modelos:
 
+* Al realizar el análisis exploratorio en la base de datos se identificó que la variable ‘loan_status’ permite demostrar si un individuo icumplirá o no en sus obligaciones financieras en los siguientes 12 meses a la fecha de originación de su crédito.
+
 ### Método de Validación:
+
+* Validación realizada para ambos modelos utilizando 153590 registros de solicitudes de préstamo.
 
 ### Reproducibilidad y Reutilización del Código:
 
+* Modelos para la predicción de riesgo de crédito:
+
+    * [código fuente en Google Colab]()
+    * [código fuente en Github]()
+
+* Código fuente de la aplicación web:
+
+    * [backend]()
+    * [frontend]()
+
 ## Modelo en Producción
+
+* [Link a la aplicación web]()
 
 ## Video Promocional
 
+* [Link al video promocional]()
+
+
 ## Conclusiones 
+
+*
