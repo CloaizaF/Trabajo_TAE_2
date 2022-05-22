@@ -78,6 +78,8 @@ A continuación se presenta el flujo de trabajo realizado:
 
 ### Link a la Información:
 
+* [Loan_data_2007_2014](https://drive.google.com/file/d/1M0UVAKomoPEPjmzhxOYb3H_yyHRx_9dE/view)
+
 ## Desarrollo de los Modelos y Validación
 
 ### Software Utilizado:
