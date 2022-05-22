@@ -41,10 +41,6 @@
 
 ## Análisis Descriptivo
 
-## Flujo de Trabajo
-
-A continuación se presenta el flujo de trabajo realizado: 
-
 ## Fuentes de Datos y Preprocesamiento
 
 ### Poblaciones:
