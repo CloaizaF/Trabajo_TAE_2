@@ -41,6 +41,21 @@
 
 ## Análisis Descriptivo
 
+A continuación se realiza un análisis descriptivo a algunas de las características encontradas en nuestra base de datos.
+
+###Estado de crédito ('loan-status')
+
+El estado de crédito se clasifica en lo siguiente: Current (Actual), Fully Paid (Completamente pagado), Charged Off (Cobrado), Late (En mora), In Grace Period (En período de gracia), Does not meet the credit policy (No cumple con la política de crédito) y Default (Incumplimiento).
+
+![](images/loan_status_1.png)
+*Figura 1*.Loan Status 1. Fuente propia.
+
+![](images/loan_status_2.png)
+*Figura 2*.Loan Status 2. Fuente propia.
+
+Al observar los gráficos de barras, se concluye que las personas por lo general tienen un crédito actual o lo han pagado por completo (Véase Loan Status 1).
+
+
 ## Fuentes de Datos y Preprocesamiento
 
 ### Poblaciones:
