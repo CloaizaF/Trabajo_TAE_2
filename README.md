@@ -108,7 +108,7 @@ A continuación se presenta el flujo de trabajo realizado:
 
 * Modelos para la predicción de riesgo de crédito:
 
-    * [código fuente en Google Colab]()
+    * [código fuente en Google Colab](https://colab.research.google.com/drive/1rsg987aRolJxyVOgruQKJAreqXiG-CGT?usp=sharing)
     * [código fuente en Github]()
 
 * Código fuente de la aplicación web:
