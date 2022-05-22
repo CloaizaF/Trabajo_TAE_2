@@ -47,14 +47,24 @@ A continuación se realiza un análisis descriptivo a algunas de las caracterís
 
 El estado de crédito se clasifica en lo siguiente: Current (Actual), Fully Paid (Completamente pagado), Charged Off (Cobrado), Late (En mora), In Grace Period (En período de gracia), Does not meet the credit policy (No cumple con la política de crédito) y Default (Incumplimiento).
 
+
 ![](images/loan_status_1.png)
+
 *Figura 1*.Loan Status 1. Fuente propia.
 
 ![](images/loan_status_2.png)
+
 *Figura 2*.Loan Status 2. Fuente propia.
 
 Al observar los gráficos de barras, se concluye que las personas por lo general tienen un crédito actual o lo han pagado por completo (Véase Loan Status 1).
 
+Ahora, se muestra la cantidad de personas en el estado Default y las que no están con aquel estado. En el caso de Default se considera que, aquellos que tienen el estado Late (31-120 days), también entran en Default.
+
+![](images/loan_status_3.png)
+
+*Figura 3*.Loan Status 3. Fuente propia.
+
+Al ver los resultados, se concluye que la gran mayoría que solicitaron crédito no se encuentran en estado de Default, es decir que cumplen con sus obligaciones financieras.
 
 ## Fuentes de Datos y Preprocesamiento
 
