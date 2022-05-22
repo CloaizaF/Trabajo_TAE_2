@@ -84,7 +84,7 @@ A continuación se presenta el flujo de trabajo realizado:
 
 ### Software Utilizado:
 
-* Modelo realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando la librería ...
+* Modelo realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando las librerías [Sklearn](https://scikit-learn.org/stable/) y [Tensorflow](https://www.tensorflow.org/?hl=es-419)
 
 ### Entrenamiento y Validación de los Modelos:
 
