@@ -109,7 +109,7 @@ A continuación se presenta el flujo de trabajo realizado:
 * Modelos para la predicción de riesgo de crédito:
 
     * [código fuente en Google Colab](https://colab.research.google.com/drive/1rsg987aRolJxyVOgruQKJAreqXiG-CGT?usp=sharing)
-    * [código fuente en Github]()
+    * [código fuente en Github](https://github.com/CloaizaF/Trabajo_TAE_2)
 
 * Código fuente de la aplicación web:
 
