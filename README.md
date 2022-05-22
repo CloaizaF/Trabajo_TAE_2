@@ -19,7 +19,7 @@
 
 ### Información Disponible:
 
-* El insumo principal de este trabajo son los datos de las solicitudes de préstamo encontrados en [Loan_data_2007_2014](https://drive.google.com/file/d/1M0UVAKomoPEPjmzhxOYb3H_yyHRx_9dE/view) (466285 registros).
+* El insumo principal de este trabajo son los datos de las solicitudes de préstamo encontradas en [Loan_data_2007_2014](https://drive.google.com/file/d/1M0UVAKomoPEPjmzhxOYb3H_yyHRx_9dE/view) (466285 registros).
 
 ### Método de Machine Learning:
 
@@ -35,6 +35,7 @@
 
 ## Definiciones
 
+* Se considerará que un cliente cumple sus obligaciones financieras si no está en default o si no tiene un atraso de más de 30 días en su pago.
 * Se considerará que un cliente incumple sus obligaciones financieras si está en default o si tiene un atraso de más de 30 días en su pago.
 
 ## Análisis Descriptivo
@@ -47,13 +48,33 @@ A continuación se presenta el flujo de trabajo realizado:
 
 ### Poblaciones:
 
+* Solicitudes de préstamo realizadas por individuos que cumplen sus obligaciones financieras en los siguientes 12 meses a la fecha de originación de su crédito.
+* Solicitudes de préstamo realizadas por individuos que incumplen sus obligaciones financieras en los siguientes 12 meses a la fecha de originación de su crédito.
+
 ### Registro de Muestra y Características de Medición:
+
+* Datos obtenidos de las solicitudes de préstamo encontradas en [Loan_data_2007_2014](https://drive.google.com/file/d/1M0UVAKomoPEPjmzhxOYb3H_yyHRx_9dE/view) (466285 registros).
 
 ### Recopilación de Datos:
 
+* Registros de solicitudes seleccionados de la base de datos a partir de las definiciones presentadas en este trabajo.
+
 ### Estructuras de Datos y Tipos:
 
+* Variables continuas seleccionadas de la base de datos.
+
 ### Preprocesamiento de Datos:
+
+* Para ambos modelos se realizó el mismo preprocesamiento de datos:
+    1. Eliminación de columnas que contienen valores nulos (NaN) en su totalidad.
+    2. Eliminación de columnas que contienen gran diversidad de valores únicos como por ejemplo 'emp_title', 'desc' y 'title'.
+    3. Creación de nuevas columnas extrayendo el año de las columnas que poseen fechas.
+    4. Eliminación de las columnas 'id', 'member_id', 'grade', 'url', 'zip_code', 'application_type', 'addr_state' debido a que son poco aportantes para la predicción.
+    5. Creación de nuevas columnas dummies con valores binarios para las columnas tipo object.
+    6. Eliminación de las columnas que presentan un gran porcentaje de datos faltantes, es decir, que contienen gran cantidad de valores nulos (NaN).
+    7. Reemplazo de los valores nulos (NaN) de las columnas 'tot_coll_amt' y 'tot_cur_bal' por su media debido a que el porcentaje de valores nulos (NaN) no se considera alto.
+    8. Eliminación de filas que contienen valores nulos (NaN) pero que cuyo porcentaje de valores faltantes no se considera alto.
+    9. Transformación de la variable 'loan_status' a binaria teniendo en cuenta las definiciones presentadad en este trabajo.
 
 ### Link a la Información:
 
