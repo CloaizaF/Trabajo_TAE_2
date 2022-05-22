@@ -130,9 +130,12 @@ A continuación se presenta el flujo de trabajo realizado:
 *
 
 ## Referencias
-Bhalla, D. (s. f.). A Complete Guide to Credit Risk Modelling. ListenData. 
 
-    https://www.listendata.com/2019/08/credit-risk-modelling.html
+<span class="c1"></span>
+
+<span>Bhalla, D. (s. f.). A Complete Guide to Credit Risk Modelling. ListenData. </span>(https://www.listendata.com/2019/08/credit-risk-modelling.html)</span>
+
+<span class="c1"></span>
     
 F. (2021, 15 septiembre). 🏦 Lending Club Loan 💰 Defaulters 🏃‍♂ Prediction. Kaggle. 
 
