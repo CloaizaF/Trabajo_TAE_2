@@ -171,7 +171,8 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 
 ## Conclusiones 
 
-*
+* Al ser una muestra tan asimétrica con respecto al número de solicitudes de individuos que incumplen sus obligaciones financieras y los que no, siendo estos primeros una minoría, se deben analizar otras métricas además de la exactitud de los modelos (la cual es similar en ambos modelos), como por ejemplo la precisión, ya que nos indica la calidad de la precisión realizada con respecto a los verdaderos positivos, divididos entre los positivos identificados, ya sean correctos o incorrectos.
+* A pesar de que ambos modelos presentan resultados muy similares tanto en entrenamiento como en validación, se escogió el modelo de redes neuronales porque sus métricas son ligeramente mejores, debido a que logra identificar a los individuos que incumplirían sus obigaciones fincacieras de manera más confiable, incluso teniendo en cuenta que se tiene una muestra desigual respecto a los que incumplen sus obligaciones financieras y los que no.
 
 ## Referencias
 
