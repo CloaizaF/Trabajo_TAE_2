@@ -157,12 +157,12 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 
 * Código fuente de la aplicación web:
 
-    * [backend]()
-    * [frontend]()
+    * [backend](https://github.com/jumarinr/satisfaccion_model)
+    * [frontend](https://github.com/jumarinr/prediction-satisfaction)
 
 ## Modelo en Producción
 
-* [Link a la aplicación web]()
+* [Link a la aplicación web](https://trabajos-tae.herokuapp.com/trabajo-2)
 
 ## Video Promocional
 
