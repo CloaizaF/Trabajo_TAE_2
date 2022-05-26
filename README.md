@@ -31,7 +31,7 @@
 
 ### Evaluación de Métricas, Protocolo de Entrenamiento y Validación:
 
-* accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos de regresión logística y redes neuronales. Adicionalmente se utilizará la matriz de confusión y la curva de ROC para evaluar el modelo de regresión logística.
+* accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos de regresión logística y redes neuronales. Adicionalmente, se utilizará la matriz de confusión y la curva de ROC para evaluar el modelo de regresión logística.
 * 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos. Además, se utilizó el parámetro stratify para combatir el desbalance presente en los conjuntos para las particiones de ambos modelos.
 
 ## Definiciones
