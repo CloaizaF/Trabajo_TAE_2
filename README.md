@@ -32,7 +32,7 @@
 ### Evaluación de Métricas, Protocolo de Entrenamiento y Validación:
 
 * accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos de regresión logística y redes neuronales. Adicionalmente se utilizará la matriz de confusión y la curva de ROC para evaluar el modelo de regresión logística.
-* 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos teniendo en cuenta que se utilizó el parámetro stratify para combatir el desbalance presente en los conjuntos.
+* 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos. Además, se utilizó el parámetro stratify para combatir el desbalance presente en los conjuntos para las particiones de ambos modelos.
 
 ## Definiciones
 
@@ -130,6 +130,7 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 ### Software Utilizado:
 
 * Modelo realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando las librerías [Sklearn](https://scikit-learn.org/stable/) y [Tensorflow](https://www.tensorflow.org/?hl=es-419).
+* Scorecard realizado en [Google Collaboratory](https://www.google.com/url?q=https://colab.research.google.com/notebooks/welcome.ipynb?hl%3Des&sa=D&source=editors&ust=1651468799400076&usg=AOvVaw3BsmzIFA0LLERerLBE2zcG) con el lenguaje de programación Python utilizando la librería [Optbinning](http://gnpalencia.org/optbinning/).
 
 ### Entrenamiento y Validación de los Modelos:
 
