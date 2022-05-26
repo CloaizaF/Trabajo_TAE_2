@@ -31,8 +31,8 @@
 
 ### Evaluación de Métricas, Protocolo de Entrenamiento y Validación:
 
-* accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos.
-* 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos.
+* accuracy, precision, recall, f1-score y support serán utilizados para evaluar el rendimiento predictivo de los modelos de regresión logística y redes neuronales. Adicionalmente se utilizará la matriz de confusión y la curva de ROC para evaluar el modelo de regresión logística.
+* 311832 registros de solicitudes de préstamo para entrenamiento y 153590 registros para validación. Se utilizó la misma partición para ambos modelos ya que se considero adecuada para ambos teniendo en cuenta que se utilizó el parámetro stratify para combatir el desbalance presente en los conjuntos.
 
 ## Definiciones
 
@@ -172,13 +172,17 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 ## Conclusiones 
 
 * Al ser una muestra tan asimétrica con respecto al número de solicitudes de individuos que incumplen sus obligaciones financieras y los que no, siendo estos primeros una minoría, se deben analizar otras métricas además de la exactitud de los modelos (la cual es similar en ambos modelos), como por ejemplo la precisión, ya que nos indica la calidad de la precisión realizada con respecto a los verdaderos positivos, divididos entre los positivos identificados, ya sean correctos o incorrectos.
-* A pesar de que ambos modelos presentan resultados muy similares tanto en entrenamiento como en validación, se escogió el modelo de redes neuronales porque sus métricas son ligeramente mejores, debido a que logra identificar a los individuos que incumplirían sus obigaciones fincacieras de manera más confiable, incluso teniendo en cuenta que se tiene una muestra desigual respecto a los que incumplen sus obligaciones financieras y los que no.
+* A pesar de que ambos modelos presentan resultados muy similares tanto en entrenamiento como en validación, se puede obsearvar que el modelo de redes neuronales presenta mejores métricas respecto al modelo de regresión lineal, debido a que logra identificar a los individuos que incumplirían sus obigaciones financieras de manera más confiable, incluso teniendo en cuenta que se tiene una muestra desigual respecto a los que incumplen sus obligaciones financieras y los que no.
+* Aunque las métricas del modelo de redes neuronales son mejores que las métricas del modelo de regresión lineal, se escogió este último para realizar el scorecard debido a que es más adecuado para la realización de scorecards.
 
 ## Referencias
 
 Bhalla, D. (s. f.). A Complete Guide to Credit Risk Modelling. ListenData. https://www.listendata.com/2019/08/credit-risk-modelling.html
 
+DataCamp. (s. f.). Python Logistic Regression Tutorial with Sklearn & Scikit. Desconocido. https://www.datacamp.com/tutorial/understanding-logistic-regression-python
 F. (2021, 15 septiembre). 🏦 Lending Club Loan 💰 Defaulters 🏃‍♂ Prediction. Kaggle. https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction/notebook
+
+Gonçalves, G. D. S. (2022, 7 enero). Developing Scorecards in Python using OptBinning - Towards Data Science. Medium. https://towardsdatascience.com/developing-scorecards-in-python-using-optbinning-ab9a205e1f69
 
 Li, S. (2019, 27 febrero). Building A Logistic Regression in Python, Step by Step. Medium. https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
 
