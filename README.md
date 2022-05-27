@@ -158,8 +158,8 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 
 * Código fuente de la aplicación web:
 
-    * [backend](https://github.com/jumarinr/satisfaccion_model)
-    * [frontend](https://github.com/jumarinr/prediction-satisfaction)
+    * [backend](https://github.com/jumarinr/trabajos-tae-ui)
+    * [frontend](https://github.com/jumarinr/endpoints_tae)
 
 ## Modelo en Producción
 
@@ -190,3 +190,5 @@ Li, S. (2019, 27 febrero). Building A Logistic Regression in Python, Step by Ste
 Mumtaz, A. (2021, 15 diciembre). How to Develop a Credit Risk Model and Scorecard | Towards Data Science. Medium. https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-91335fc01f03
 
 Property, K. T. |. (2022, 30 marzo). Intro to Credit Scorecard - Towards Data Science. Medium. https://towardsdatascience.com/intro-to-credit-scorecard-9afeaaa3725f
+
+¿Qué es un puntaje de FICO? | Oficina para la Protección Financiera del Consumidor. (2016, 13 junio). Consumer Financial Protection Bureau. https://www.consumerfinance.gov/es/obtener-respuestas/que-es-un-puntaje-de-fico-es-1883/
