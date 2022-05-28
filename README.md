@@ -139,7 +139,7 @@ Al ver la gráfica de barras podemos concluír que el estado donde hay más pers
 ### Características Seleccionadas y Entrada a los Modelos:
 
 * Para el modelo realizado con redes neuronales se utilizaron todas las características obtenidas después de la realización del preprocesamiento de datos.
-* Para el modelo realizado con regresión lineal se utilizaron las siguientes 10 características: 'funded_amnt', 'funded_amnt_inv', 'installment', 'total_acc', 'out_prncp', 'out_prncp_inv', 'total_pymnt', 'total_rec_prncp', 'total_rec_int', 'total_rec_late_fee' obtenidas utilizando el método RFE.
+* Para el modelo realizado con regresión lineal se utilizaron las siguientes 10 características: 'funded_amnt', 'funded_amnt_inv', 'int_rate', 'installment', 'emp_length', 'revol_bal', 'total_acc', 'out_prncp', 'out_prncp_inv', 'total_pymnt_inv', 'collection_recovery_fee', 'earliest_cr_line_Y', 'last_pymnt_d_Y', 'last_credit_pull_d_Y' obtenidas utilizando el método RFE y eliminando de acuerdo a su valor p.
 
 ### Variable a Predecir y Salida de los Modelos:
 
